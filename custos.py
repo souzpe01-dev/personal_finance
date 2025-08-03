@@ -17,40 +17,41 @@ st.title('DashBoard Controle de Custos')
 # ============================================
 
 
-df_2024_dez_raw = pd.read_csv(
-    "C:\\Users\\pedro\\OneDrive\\Desktop\\ControleGastos\\Nubank_2024-12-01.csv",  sep=',')
+def reader(path="C:\\Users\\pedro\\OneDrive\\Desktop\\ControleGastos\\personal_finance\\", filename=''):
+
+    try:
+        df = pd.read_csv(f"{path}{filename}", sep=',')
+    except:
+        df = pd.read_csv(f"{filename}", sep=',')
+
+    return df
+
+
+df_2024_dez_raw = reader(filename="Nubank_2024-12-01.csv")
 df_2024_dez_raw['year_month'] = 202412
 
-df_2025_jan_raw = pd.read_csv(
-    "C:\\Users\\pedro\\OneDrive\\Desktop\\ControleGastos\\Nubank_2025-01-01.csv",  sep=',')
+df_2025_jan_raw = reader(filename="Nubank_2025-01-01.csv")
 df_2025_jan_raw['year_month'] = 202501
 
-df_2025_fev_raw = pd.read_csv(
-    "C:\\Users\\pedro\\OneDrive\\Desktop\\ControleGastos\\Nubank_2025-02-01.csv",  sep=',')
+df_2025_fev_raw = reader(filename="Nubank_2025-02-01.csv")
 df_2025_fev_raw['year_month'] = 202502
 
-df_2025_mar_raw = pd.read_csv(
-    "C:\\Users\\pedro\\OneDrive\\Desktop\\ControleGastos\\Nubank_2025-03-01.csv",  sep=',')
+df_2025_mar_raw = reader(filename="Nubank_2025-03-01.csv")
 df_2025_mar_raw['year_month'] = 202503
 
-df_2025_abr_raw = pd.read_csv(
-    "C:\\Users\\pedro\\OneDrive\\Desktop\\ControleGastos\\Nubank_2025-04-01.csv",  sep=',')
+df_2025_abr_raw = reader(filename="Nubank_2025-04-01.csv")
 df_2025_abr_raw['year_month'] = 202504
 
-df_2025_mai_raw = pd.read_csv(
-    "C:\\Users\\pedro\\OneDrive\\Desktop\\ControleGastos\\Nubank_2025-05-01.csv",  sep=',')
+df_2025_mai_raw = reader(filename="Nubank_2025-05-01.csv")
 df_2025_mai_raw['year_month'] = 202505
 
-df_2025_jun_raw = pd.read_csv(
-    "C:\\Users\\pedro\\OneDrive\\Desktop\\ControleGastos\\Nubank_2025-06-01.csv",  sep=',')
+df_2025_jun_raw = reader(filename="Nubank_2025-06-01.csv")
 df_2025_jun_raw['year_month'] = 202506
 
-df_2025_jul_raw = pd.read_csv(
-    "C:\\Users\\pedro\\OneDrive\\Desktop\\ControleGastos\\Nubank_2025-07-01.csv",  sep=',')
+df_2025_jul_raw = reader(filename="Nubank_2025-07-01.csv")
 df_2025_jul_raw['year_month'] = 202507
 
-df_2025_ago_raw = pd.read_csv(
-    "C:\\Users\\pedro\\OneDrive\\Desktop\\ControleGastos\\Nubank_2025-08-01.csv",  sep=',')
+df_2025_ago_raw = reader(filename="Nubank_2025-08-01.csv")
 df_2025_ago_raw['year_month'] = 202508
 
 # =========== Uniom
