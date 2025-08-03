@@ -1201,7 +1201,19 @@ with col1:
 
 # ==============
 df_merged["date"] = pd.to_datetime(df_merged["date"])
-df_merged["weekday"] = df_merged["date"].dt.day_name(locale="pt_BR")
+
+dias_semana = {
+    "Monday": "Segunda-feira",
+    "Tuesday": "Terça-feira",
+    "Wednesday": "Quarta-feira",
+    "Thursday": "Quinta-feira",
+    "Friday": "Sexta-feira",
+    "Saturday": "Sábado",
+    "Sunday": "Domingo"
+}
+
+df_merged["weekday_en"] = df_merged["date"].dt.day_name()
+df_merged["weekday"] = df_merged["weekday_en"].map(dias_semana)
 
 # Título
 st.title("📊 Gastos por Data com Colunas Empilhadas por Categoria")
