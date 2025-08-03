@@ -1,0 +1,230 @@
+{
+  "2025-09": {
+    "receita": 10000.0,
+    "gastos_fixos": {
+      "Condomínio": 1300.0,
+      "Cartão Comprometido": 5121.77,
+      "Assinaturas": 600.0,
+      "Boleto Seguro": 1420.88,
+      "IPVA": 0.0
+    },
+    "gastos_variaveis": {
+      "Cartão Disponível": 900.0,
+      "Restante TIM/Claro": 250.0
+    },
+    "gastos_realizados": {
+      "Cartão Disponível": 57.6,
+      "Restante TIM/Claro": 0.0
+    },
+    "fechado": false
+  },
+  "2025-10": {
+    "receita": 10000.0,
+    "gastos_fixos": {
+      "Condomínio": 1200.0,
+      "Cartão Comprometido": 3202.05,
+      "Assinaturas": 600.0,
+      "Boleto Seguro": 0.0,
+      "IPVA": 0.0
+    },
+    "gastos_variaveis": {
+      "Cartão Disponível": 2393.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "gastos_realizados": {
+      "Cartão Disponível": 0.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "fechado": false
+  },
+  "2025-12": {
+    "receita": 15000.0,
+    "gastos_fixos": {
+      "Condomínio": 1200.0,
+      "Cartão Comprometido": 2655.41,
+      "Assinaturas": 600.0,
+      "Boleto Seguro": 0.0,
+      "IPVA": 0.0
+    },
+    "gastos_variaveis": {
+      "Cartão Disponível": 2944.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "gastos_realizados": {
+      "Cartão Disponível": 0.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "fechado": false
+  },
+  "2025-11": {
+    "receita": 10000.0,
+    "gastos_fixos": {
+      "Condomínio": 1200.0,
+      "Cartão Comprometido": 3105.39,
+      "Assinaturas": 600.0,
+      "Boleto Seguro": 0.0,
+      "IPVA": 0.0
+    },
+    "gastos_variaveis": {
+      "Cartão Disponível": 2500.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "gastos_realizados": {
+      "Cartão Disponível": 0.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "fechado": false
+  },
+  "2026-01": {
+    "receita": 10000.0,
+    "gastos_fixos": {
+      "Condomínio": 1300.0,
+      "Cartão Comprometido": 1629.83,
+      "Assinaturas": 600.0,
+      "Boleto Seguro": 0.0,
+      "IPVA": 0.0
+    },
+    "gastos_variaveis": {
+      "Cartão Disponível": 3800.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "gastos_realizados": {
+      "Cartão Disponível": 0.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "fechado": false
+  },
+  "2026-02": {
+    "receita": 15000.0,
+    "gastos_fixos": {
+      "Condomínio": 1300.0,
+      "Cartão Comprometido": 1574.93,
+      "Assinaturas": 600.0,
+      "Boleto Seguro": 0.0,
+      "IPVA": 5000.0
+    },
+    "gastos_variaveis": {
+      "Cartão Disponível": 3900.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "gastos_realizados": {
+      "Cartão Disponível": 0.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "fechado": false
+  },
+  "2026-03": {
+    "receita": 10000.0,
+    "gastos_fixos": {
+      "Condomínio": 1300.0,
+      "Cartão Comprometido": 1497.94,
+      "Assinaturas": 600.0,
+      "Boleto Seguro": 0.0,
+      "IPVA": 0.0
+    },
+    "gastos_variaveis": {
+      "Cartão Disponível": 3900.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "gastos_realizados": {
+      "Cartão Disponível": 0.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "fechado": false
+  },
+  "2026-04": {
+    "receita": 30000.0,
+    "gastos_fixos": {
+      "Condomínio": 1300.0,
+      "Cartão Comprometido": 897.92,
+      "Assinaturas": 600.0,
+      "Boleto Seguro": 0.0,
+      "IPVA": 0.0
+    },
+    "gastos_variaveis": {
+      "Cartão Disponível": 5000.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "gastos_realizados": {
+      "Cartão Disponível": 0.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "fechado": false
+  },
+  "2026-05": {
+    "receita": 10000.0,
+    "gastos_fixos": {
+      "Condomínio": 1300.0,
+      "Cartão Comprometido": 852.31,
+      "Assinaturas": 600.0,
+      "Boleto Seguro": 0.0,
+      "IPVA": 0.0
+    },
+    "gastos_variaveis": {
+      "Cartão Disponível": 4400.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "gastos_realizados": {
+      "Cartão Disponível": 0.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "fechado": false
+  },
+  "2026-06": {
+    "receita": 10000.0,
+    "gastos_fixos": {
+      "Condomínio": 1300.0,
+      "Cartão Comprometido": 852.31,
+      "Assinaturas": 600.0,
+      "Boleto Seguro": 1200.0,
+      "IPVA": 0.0
+    },
+    "gastos_variaveis": {
+      "Cartão Disponível": 3200.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "gastos_realizados": {
+      "Cartão Disponível": 0.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "fechado": false
+  },
+  "2026-07": {
+    "receita": 9900.0,
+    "gastos_fixos": {
+      "Condomínio": 1300.0,
+      "Cartão Comprometido": 19.9,
+      "Assinaturas": 600.0,
+      "Boleto Seguro": 1200.0,
+      "IPVA": 0.0
+    },
+    "gastos_variaveis": {
+      "Cartão Disponível": 4000.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "gastos_realizados": {
+      "Cartão Disponível": 0.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "fechado": false
+  },
+  "2026-08": {
+    "receita": 10000.0,
+    "gastos_fixos": {
+      "Condomínio": 1300.0,
+      "Cartão Comprometido": 0.0,
+      "Assinaturas": 600.0,
+      "Boleto Seguro": 1200.0,
+      "IPVA": 0.0
+    },
+    "gastos_variaveis": {
+      "Cartão Disponível": 4000.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "gastos_realizados": {
+      "Cartão Disponível": 0.0,
+      "Restante TIM/Claro": 0.0
+    },
+    "fechado": false
+  }
+}
